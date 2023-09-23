@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('fonts/BebasNue/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 150px;
+
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 65px;
+    top: 20px;
+}
+
+.navBar .navBarLogoContainer {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0px 10px;
+    gap: 0px 10px;
+
+    flex: auto;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+
+.navBar .navBarLogoContainer .navBarLogo {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    color: #092B4D;
+    
+    flex: auto;
+    order: 0;
+    flex-grow: 0;
+
+    text-decoration:none
+}
+
+.navBar .navBarLogoContainer .navBarSubLogo {  
+    font-family: 'Quantico';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    color: #092B4D;
+    
+    flex: auto;
+    order: 1;
+    flex-grow: 0;
+    
+    text-decoration:none
+}
+
+.navBar .navBarTextContainer {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    gap: 50px;
+
+    flex: auto;
+    order: 1;
+    flex-grow: 0;
+}
+
+.navBar .navBarTextContainer .navBarText{
+
+    font-family: 'Quantico';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 46px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #092B4D;
+    
+    flex: none;
+    order: inherit;
+    flex-grow: 0;
+
+    text-decoration:none
+}
+
+.navBar .navBarButtonContainer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.navBar .navBarButtonContainer .navBarButton {
+    width: 180px;
+    height: 50px;
+
+    background: #092B4D;
+    border-radius: 20px;
+    border-style: none;
+
+    font-family: 'Quantico';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-decoration:none;
+    box-shadow: 0 2px 8px 0 #999;
+}
+
+
+#contact {
+        cursor: url("./images/undraw_envelope.svg"), auto;
+
+} 
